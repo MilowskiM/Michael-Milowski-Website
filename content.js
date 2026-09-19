@@ -15,14 +15,15 @@ window.PORTFOLIO_CONTENT = {
     email: "mdm17@illinois.edu",
     linkedin: "https://www.linkedin.com/in/michaelmilowski/",
     heroEyebrow: "AEROSPACE · SYSTEMS · HARDWARE",
-    heroTitle: "Engineering ideas into hardware that moves.",
-    heroIntro: "I’m an aerospace engineering student focused on space missions, electromechanical systems, and the disciplined work of turning an early concept into something testable.",
+    heroTitle: "Understanding Systems to Design the Furure.",
+    heroIntro: "I’m an aerospace engineering student focused on space missions, complex systems, and turning concepts into reality.",
     aboutTitle: "Curious about the entire system.",
     aboutParagraphs: [
       "I am an aerospace engineering student at the University of Illinois Urbana-Champaign. I enjoy work that connects analysis, design, manufacturing, and testing—especially when the problem sits at the intersection of hardware and mission objectives.",
       "My experience spans space mission cost analysis at NASA Langley, electromechanical actuation systems at Woodward, cryogenic propellant research, and detailed CAD. I bring a practical, collaborative approach to technical problems and communicate complex work clearly across teams."
     ],
-    aboutPhotoNote: "Portrait coming soon",
+    aboutPhoto: "assets/images/profile-headshot.jpg",
+    aboutPhotoAlt: "Professional headshot of Michael Milowski",
     currentFocus: "Currently supporting the Space Mission Cost Team at NASA Langley Research Center."
   },
 
@@ -37,23 +38,23 @@ window.PORTFOLIO_CONTENT = {
   home: {
     selectedWorkLabel: "SELECTED WORK",
     experienceLabel: "FEATURED EXPERIENCE",
-    portfolioButton: "View all projects",
+    portfolioButton: "View my projects",
     experienceButton: "Explore experience",
     resumeButton: "Download résumé",
     aboutEyebrow: "ABOUT ME",
-    aboutTitle: "Learning the whole system—from mission architecture to the hardware on the bench.",
-    aboutText: "I’m an aerospace engineering student who enjoys connecting analysis, design, manufacturing, and testing. My recent work has taken me from mission cost analysis at NASA Langley to electromechanical integration and test tooling at Woodward.",
+    aboutTitle: "Becoming a well-rounded engineer by gaining experience across all aspects of complex projects and missions.",
+    aboutText: "I’m an aerospace engineering student who enjoys connecting analysis, design, manufacturing, and testing. My recent work has taken me from mission cost analysis at NASA Langley to systems integration and eletronic rework and repair at Woodward.",
     nasaLink: "NASA experience",
     woodwardLink: "Woodward experience"
   },
 
   pageCopy: {
-    experienceEyebrow: "FIELD NOTES / 01",
-    experienceTitle: "Experience built around consequential systems.",
-    experienceIntro: "From early mission analysis to electromechanical integration, I’m learning how rigorous engineering decisions carry through an entire program.",
+    experienceEyebrow: "PROFESSIONAL EXPERIENCES / 01",
+    experienceTitle: "Experiences built to devolop my engineering tool box.",
+    experienceIntro: "From early mission analysis to system integration, I’m learning how to make well informed engineering decisions that carry through an entire program.",
     portfolioEyebrow: "SELECTED PROJECTS / 02",
-    portfolioTitle: "Design, analysis, and the proof of a working prototype.",
-    portfolioIntro: "A selection of projects that reflect how I learn: research the system, build carefully, test assumptions, and communicate what changed.",
+    portfolioTitle: "My Portfolio",
+    portfolioIntro: "A selection of projects that reflect how I apply my engineering knowlege and work with teams to achieve more than I can individually.",
     projectPrefix: "PROJECT",
     resumeEyebrow: "BACKGROUND / 03",
     educationLabel: "Education",
@@ -78,9 +79,8 @@ window.PORTFOLIO_CONTENT = {
         "Translate mission architectures and technical parameters into structured cost analysis.",
         "Support decision-making with clear, traceable analysis of mission feasibility."
       ],
-      image: "assets/images/tooling-prototypes.jpg",
-      imageAlt: "3D-printed engineering tooling prototypes arranged on a workbench",
-      placeholder: "NASA experience photo coming soon",
+      image: "assets/images/nasa-langley.webp",
+      imageAlt: "NASA Langley Research Center entrance sign",
       slug: "nasa",
       accent: "MISSION ANALYSIS"
     },
@@ -94,8 +94,8 @@ window.PORTFOLIO_CONTENT = {
         "Reviewed and corrected military actuation-system requirements against customer specifications.",
         "Designed and 3D-printed tooling that improved resolver testing accuracy and efficiency."
       ],
-      image: "assets/images/resolver-tooling.jpg",
-      imageAlt: "Resolver component beside a custom 3D-printed test fixture",
+      image: "assets/images/woodward-experience.jpg",
+      imageAlt: "Michael Milowski during his Woodward engineering experience",
       slug: "woodward",
       accent: "ELECTROMECHANICAL SYSTEMS"
     },
@@ -109,9 +109,8 @@ window.PORTFOLIO_CONTENT = {
         "Applied NASA cost models, Gantt charts, and risk matrices to the mission concept.",
         "Produced an organized, traceable final report aligned with NASA project expectations."
       ],
-      image: "assets/images/eoh-team.jpg",
-      imageAlt: "Student engineering team presenting a hands-on project at Engineering Open House",
-      placeholder: "NASA L’SPACE experience photo coming soon",
+      image: "assets/images/lspace-pdr.png",
+      imageAlt: "NASA L’SPACE Team 17 Preliminary Design Review title slide",
       slug: "lspace",
       accent: "PROJECT LEADERSHIP"
     }
@@ -137,7 +136,7 @@ window.PORTFOLIO_CONTENT = {
       impact: "Careful component placement and soldered connections turned the early circuit concept into a physical prototype ready for integration and testing.",
       mediaType: "image",
       media: "assets/images/circuit-prototype.jpg",
-      imageAlt: "Hand-built electronics circuit on a small perfboard"
+      imageAlt: "Hand-built electronics circuit mounted on a small wheeled prototype"
     },
     {
       title: "Interactive Engineering Open House Exhibit",

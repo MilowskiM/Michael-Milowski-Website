@@ -141,8 +141,8 @@ function renderResume() {
 function renderAbout() {
   document.getElementById("about").innerHTML = `
     <div class="about-layout page-shell">
-      <div class="portrait-placeholder reveal" role="img" aria-label="Reserved space for a future portrait">
-        <div class="portrait-initials">MM</div><p>${content.person.aboutPhotoNote}</p>
+      <div class="portrait-photo reveal">
+        <img src="${content.person.aboutPhoto}" alt="${content.person.aboutPhotoAlt}" loading="lazy" />
       </div>
       <div class="about-copy reveal">
         <p class="eyebrow">${content.pageCopy.aboutEyebrow}</p>
