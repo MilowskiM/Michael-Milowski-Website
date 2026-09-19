@@ -81,6 +81,7 @@ window.PORTFOLIO_CONTENT = {
       ],
       image: "assets/images/nasa-langley.webp",
       imageAlt: "NASA Langley Research Center entrance sign",
+      imageFit: "contain",
       slug: "nasa",
       accent: "MISSION ANALYSIS"
     },
@@ -111,6 +112,7 @@ window.PORTFOLIO_CONTENT = {
       ],
       image: "assets/images/lspace-pdr.png",
       imageAlt: "NASA L’SPACE Team 17 Preliminary Design Review title slide",
+      imageFit: "contain",
       slug: "lspace",
       accent: "PROJECT LEADERSHIP"
     }

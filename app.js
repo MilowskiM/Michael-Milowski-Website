@@ -66,7 +66,7 @@ function renderExperience() {
     <div class="experience-list page-shell">
       ${content.experiences.map((item, index) => `
         <article class="experience-card reveal" id="experience-${item.slug}">
-          <div class="experience-media">${item.placeholder ? `<div class="experience-placeholder" role="img" aria-label="${item.placeholder}"><span>${String(index + 1).padStart(2, "0")}</span><p>${item.placeholder}</p></div>` : `<img src="${item.image}" alt="${item.imageAlt}" loading="lazy" />`}</div>
+          <div class="experience-media ${item.imageFit === "contain" ? "contain" : ""}">${item.placeholder ? `<div class="experience-placeholder" role="img" aria-label="${item.placeholder}"><span>${String(index + 1).padStart(2, "0")}</span><p>${item.placeholder}</p></div>` : `<img src="${item.image}" alt="${item.imageAlt}" loading="lazy" />`}</div>
           <div class="experience-copy">
             <div class="experience-topline"><span>${String(index + 1).padStart(2, "0")}</span><span>${item.accent}</span></div>
             <h2>${item.organization}</h2>
