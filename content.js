@@ -39,7 +39,12 @@ window.PORTFOLIO_CONTENT = {
     experienceLabel: "FEATURED EXPERIENCE",
     portfolioButton: "View all projects",
     experienceButton: "Explore experience",
-    resumeButton: "Download résumé"
+    resumeButton: "Download résumé",
+    aboutEyebrow: "ABOUT ME",
+    aboutTitle: "Learning the whole system—from mission architecture to the hardware on the bench.",
+    aboutText: "I’m an aerospace engineering student who enjoys connecting analysis, design, manufacturing, and testing. My recent work has taken me from mission cost analysis at NASA Langley to electromechanical integration and test tooling at Woodward.",
+    nasaLink: "NASA experience",
+    woodwardLink: "Woodward experience"
   },
 
   pageCopy: {
@@ -75,6 +80,8 @@ window.PORTFOLIO_CONTENT = {
       ],
       image: "assets/images/tooling-prototypes.jpg",
       imageAlt: "3D-printed engineering tooling prototypes arranged on a workbench",
+      placeholder: "NASA experience photo coming soon",
+      slug: "nasa",
       accent: "MISSION ANALYSIS"
     },
     {
@@ -89,6 +96,7 @@ window.PORTFOLIO_CONTENT = {
       ],
       image: "assets/images/resolver-tooling.jpg",
       imageAlt: "Resolver component beside a custom 3D-printed test fixture",
+      slug: "woodward",
       accent: "ELECTROMECHANICAL SYSTEMS"
     },
     {
@@ -103,6 +111,8 @@ window.PORTFOLIO_CONTENT = {
       ],
       image: "assets/images/eoh-team.jpg",
       imageAlt: "Student engineering team presenting a hands-on project at Engineering Open House",
+      placeholder: "NASA L’SPACE experience photo coming soon",
+      slug: "lspace",
       accent: "PROJECT LEADERSHIP"
     }
   ],
@@ -124,11 +134,9 @@ window.PORTFOLIO_CONTENT = {
       meta: "Woodward · Rapid prototyping · Test engineering",
       description: "A family of custom 3D-printed fixtures created to support resolver testing before installation. Iterative prototypes helped improve test repeatability, protect components, and make the setup faster and easier to use.",
       impact: "The work paired hands-on prototyping with real manufacturing and test constraints—an example of small tooling changes creating meaningful workflow gains.",
-      mediaType: "gallery",
-      media: [
-        { src: "assets/images/tooling-prototypes.jpg", alt: "Multiple iterations of 3D-printed resolver test tooling" },
-        { src: "assets/images/resolver-tooling.jpg", alt: "Resolver seated beside a tan 3D-printed test fixture" }
-      ]
+      mediaType: "image",
+      media: "assets/images/resolver-tooling.jpg",
+      imageAlt: "Resolver beside a tan 3D-printed test fixture"
     },
     {
       title: "Interactive Engineering Open House Exhibit",
@@ -183,8 +191,7 @@ window.PORTFOLIO_CONTENT = {
   },
 
   footer: {
-    prompt: "Have an engineering problem worth solving?",
-    contactLabel: "Get in touch",
+    contactLabel: "Contact me",
     copyright: "Built by Michael Milowski"
   }
 };

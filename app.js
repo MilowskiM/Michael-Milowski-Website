@@ -36,31 +36,23 @@ function renderHome() {
           ${linkButton(content.home.resumeButton, content.resume.primaryDownload, "text-link", true)}
         </div>
       </div>
-      <div class="orbit-stage reveal" aria-label="Abstract orbital graphic">
-        <div class="planet"><span></span></div>
-        <div class="orbit-line orbit-one"></div>
-        <div class="orbit-line orbit-two"></div>
-        <p>${content.person.currentFocus}</p>
-      </div>
+      <figure class="earth-stage reveal">
+        <img src="assets/images/earthrise.jpg" alt="Earth rising above the Moon's horizon, photographed during Apollo 8" />
+        <figcaption><span>${content.person.currentFocus}</span><small>Earthrise · Apollo 8 · NASA</small></figcaption>
+      </figure>
     </div>
-    <div class="home-grid page-shell">
-      <article class="home-feature dark-card reveal">
-        <div class="feature-number">01</div>
-        <div>
-          <p class="eyebrow">${content.home.experienceLabel}</p>
-          <h2>${featuredExperience.organization}</h2>
-          <p>${featuredExperience.summary}</p>
-          ${linkButton(content.home.experienceButton, "#experience", "text-link")}
+    <div class="home-about page-shell reveal">
+      <p class="eyebrow">${content.home.aboutEyebrow}</p>
+      <div class="home-about-grid">
+        <h2>${content.home.aboutTitle}</h2>
+        <div class="home-about-copy">
+          <p>${content.home.aboutText}</p>
+          <div class="experience-shortcuts">
+            <a class="experience-shortcut" href="#experience" data-scroll-target="experience-nasa"><span>${content.home.nasaLink}</span>${icon("arrow")}</a>
+            <a class="experience-shortcut" href="#experience" data-scroll-target="experience-woodward"><span>${content.home.woodwardLink}</span>${icon("arrow")}</a>
+          </div>
         </div>
-      </article>
-      <article class="home-feature project-feature reveal">
-        <img src="${featuredProject.poster}" alt="${featuredProject.imageAlt}" />
-        <div class="project-feature-overlay">
-          <p class="eyebrow">${content.home.selectedWorkLabel}</p>
-          <h2>${featuredProject.title}</h2>
-          <p>${featuredProject.meta}</p>
-        </div>
-      </article>
+      </div>
     </div>`;
 }
 
@@ -73,8 +65,8 @@ function renderExperience() {
     </div>
     <div class="experience-list page-shell">
       ${content.experiences.map((item, index) => `
-        <article class="experience-card reveal">
-          <div class="experience-media"><img src="${item.image}" alt="${item.imageAlt}" loading="lazy" /></div>
+        <article class="experience-card reveal" id="experience-${item.slug}">
+          <div class="experience-media">${item.placeholder ? `<div class="experience-placeholder" role="img" aria-label="${item.placeholder}"><span>${String(index + 1).padStart(2, "0")}</span><p>${item.placeholder}</p></div>` : `<img src="${item.image}" alt="${item.imageAlt}" loading="lazy" />`}</div>
           <div class="experience-copy">
             <div class="experience-topline"><span>${String(index + 1).padStart(2, "0")}</span><span>${item.accent}</span></div>
             <h2>${item.organization}</h2>
@@ -168,7 +160,7 @@ function renderFooter() {
   const year = new Date().getFullYear();
   document.getElementById("site-footer").innerHTML = `
     <div class="footer-inner page-shell">
-      <div><p>${content.footer.prompt}</p><a href="mailto:${content.person.email}">${content.footer.contactLabel}${icon("arrow")}</a></div>
+      <div><a href="mailto:${content.person.email}">${content.footer.contactLabel}${icon("arrow")}</a></div>
       <div class="footer-links"><a href="${content.person.linkedin}" target="_blank" rel="noreferrer">LinkedIn${icon("linkedin")}</a><a href="mailto:${content.person.email}">Email${icon("mail")}</a></div>
       <p class="copyright">© ${year} ${content.person.name}. ${content.footer.copyright}.</p>
     </div>`;
@@ -219,6 +211,8 @@ document.addEventListener("click", event => {
   if (routeLink && content.navigation.some(item => item.route === route)) {
     event.preventDefault();
     showRoute(route);
+    const scrollTarget = routeLink.dataset.scrollTarget;
+    if (scrollTarget) requestAnimationFrame(() => document.getElementById(scrollTarget)?.scrollIntoView({ block: "start" }));
   }
 });
 
