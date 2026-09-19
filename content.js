@@ -139,7 +139,7 @@ window.PORTFOLIO_CONTENT = {
       mediaFit: "contain",
       imageAlt: "Cover page of the ECLIPSE NASA Human Lander Challenge technical paper",
       downloadLabel: "Download technical paper",
-      download: "assets/papers/2025-HuLC-UIUC-Technical-Paper.pdf"
+      download: "2025-HuLC-UIUC-Technical-Paper.pdf"
     },
     {
       title: "Resolver Test Tooling",
