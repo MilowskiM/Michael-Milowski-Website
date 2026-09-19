@@ -122,12 +122,14 @@ h2 { font-size: clamp(2rem, 4.5vw, 4rem); }
 .project-card:nth-child(even) .project-media { order: 2; }
 .project-media { min-width: 0; background: var(--surface); overflow: hidden; }
 .project-media > img, .project-media > video { aspect-ratio: 4 / 3; height: 100%; object-fit: cover; }
+.project-media.contain > img { object-fit: contain; background: #fff; }
 .media-gallery { display: grid; grid-template-columns: 1.35fr .65fr; height: 590px; gap: 2px; }
 .media-gallery img { height: 100%; object-fit: cover; min-width: 0; }
 .project-index, .project-meta { color: var(--blue); font: 700 .73rem/1.5 ui-monospace, monospace; letter-spacing: .13em; text-transform: uppercase; }
 .project-copy h2 { margin-block: 1.25rem; }
 .project-copy > p:not(.project-index):not(.project-meta) { color: var(--muted); }
 .project-copy .impact { padding-top: 1.5rem; border-top: 1px solid var(--line); color: #cbd4de !important; }
+.project-actions { margin-top: 2rem; }
 
 .resume-hero { display: flex; justify-content: space-between; gap: 3rem; align-items: end; padding-top: clamp(5rem, 12vw, 10rem); padding-bottom: clamp(4rem, 7vw, 7rem); border-bottom: 1px solid var(--line); }
 .resume-hero h1 { margin-bottom: 1rem; }

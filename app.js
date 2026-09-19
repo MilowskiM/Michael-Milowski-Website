@@ -103,13 +103,14 @@ function renderPortfolio() {
     <div class="project-list page-shell">
       ${content.projects.map((project, index) => `
         <article class="project-card reveal">
-          <div class="project-media">${mediaMarkup(project)}</div>
+          <div class="project-media ${project.mediaFit === "contain" ? "contain" : ""}">${mediaMarkup(project)}</div>
           <div class="project-copy">
             <p class="project-index">${content.pageCopy.projectPrefix} / ${String(index + 1).padStart(2, "0")}</p>
             <h2>${project.title}</h2>
             <p class="project-meta">${project.meta}</p>
             <p>${project.description}</p>
             <p class="impact">${project.impact}</p>
+            ${project.download ? `<div class="project-actions">${linkButton(project.downloadLabel, project.download, "button secondary", true)}</div>` : ""}
           </div>
         </article>`).join("")}
     </div>`;

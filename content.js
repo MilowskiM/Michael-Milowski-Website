@@ -130,6 +130,18 @@ window.PORTFOLIO_CONTENT = {
       imageAlt: "Animation of a detailed NASA SLS Block 1 CAD model"
     },
     {
+      title: "NASA Human Lander Challenge — ECLIPSE",
+      meta: "NASA HuLC 2025 · Advanced cryogenics · Technical paper",
+      description: "I contributed to ECLIPSE—Efficient Cryogenic Low Invasive Propellant Supply Exchange—a University of Illinois concept for improving cryogenic propellant transfer in microgravity. Our research evaluated methods to reduce line chilldown time and propellant boiloff under Artemis transfer conditions.",
+      impact: "The team was selected as one of 12 national HuLC finalists and received the award for Best Technical Presentation.",
+      mediaType: "image",
+      media: "assets/images/hulc-paper-cover.png",
+      mediaFit: "contain",
+      imageAlt: "Cover page of the ECLIPSE NASA Human Lander Challenge technical paper",
+      downloadLabel: "Download technical paper",
+      download: "assets/papers/2025-HuLC-UIUC-Technical-Paper.pdf"
+    },
+    {
       title: "Resolver Test Tooling",
       meta: "Woodward · Rapid prototyping · Test engineering",
       description: "A family of custom 3D-printed fixtures created to support resolver testing before installation. Iterative prototypes helped improve test repeatability, protect components, and make the setup faster and easier to use.",
