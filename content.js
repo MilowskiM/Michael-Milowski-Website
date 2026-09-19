@@ -124,7 +124,7 @@ window.PORTFOLIO_CONTENT = {
       description: "I contributed to ECLIPSE—Efficient Cryogenic Low Invasive Propellant Supply Exchange—a University of Illinois concept for improving cryogenic propellant transfer in microgravity. Our research evaluated methods to reduce line chilldown time and propellant boiloff under Artemis transfer conditions.",
       impact: "The team was selected as one of 12 national HuLC finalists and received the award for Best Technical Presentation.",
       mediaType: "image",
-      media: "assets/images/hulc-project-image.png",
+      media: "./hulc-project-image.png",
       mediaFit: "contain",
       imageAlt: "Cover page of the ECLIPSE NASA Human Lander Challenge technical paper",
       downloadLabel: "Download technical paper",
@@ -154,8 +154,8 @@ window.PORTFOLIO_CONTENT = {
       description: "A hands-on Woodward demonstration that combines a scale aircraft, an illuminated control display, and mechanical test hardware in a working bench setup.",
       impact: "The project connected aerospace hardware and electronics in a physical presentation designed to make the system easier to understand and demonstrate.",
       mediaType: "video",
-      media: "assets/video/woodward-plane.mp4",
-      poster: "assets/images/woodward-plane-poster.jpg",
+      media: "./woodward-plane.mp4",
+      poster: "./woodward-plane-poster.jpg",
       imageAlt: "Woodward aircraft demonstration with a scale airplane, illuminated display, and mechanical test stand"
     },
     {
