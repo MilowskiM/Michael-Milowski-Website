@@ -119,36 +119,25 @@ window.PORTFOLIO_CONTENT = {
 
   projects: [
     {
-      title: "NASA SLS Block 1 — Digital Model",
-      meta: "Siemens NX · CAD · Kinematic simulation",
-      description: "A detailed 1:1 digital model of NASA’s Space Launch System Block 1, developed from technical references and photogrammetry. The assembly includes more than 30 moving components, 48 unique materials, 43 decals, detachable stages, and a kinematic assembly animation.",
-      impact: "Built to deepen my understanding of launch vehicle architecture while advancing my solid, surface, assembly, rendering, and motion-simulation skills in Siemens NX.",
-      mediaType: "video",
-      media: "assets/video/sls-model.mp4",
-      fallbackMedia: "assets/video/sls-model.avi",
-      poster: "assets/images/sls-poster.jpg",
-      imageAlt: "Animation of a detailed NASA SLS Block 1 CAD model"
-    },
-    {
       title: "NASA Human Lander Challenge — ECLIPSE",
       meta: "NASA HuLC 2025 · Advanced cryogenics · Technical paper",
       description: "I contributed to ECLIPSE—Efficient Cryogenic Low Invasive Propellant Supply Exchange—a University of Illinois concept for improving cryogenic propellant transfer in microgravity. Our research evaluated methods to reduce line chilldown time and propellant boiloff under Artemis transfer conditions.",
       impact: "The team was selected as one of 12 national HuLC finalists and received the award for Best Technical Presentation.",
       mediaType: "image",
-      media: "assets/images/hulc-paper-cover.png",
+      media: "assets/images/hulc-project-image.png",
       mediaFit: "contain",
       imageAlt: "Cover page of the ECLIPSE NASA Human Lander Challenge technical paper",
       downloadLabel: "Download technical paper",
       download: "2025-HuLC-UIUC-Technical-Paper.pdf"
     },
     {
-      title: "Resolver Test Tooling",
-      meta: "Woodward · Rapid prototyping · Test engineering",
-      description: "A family of custom 3D-printed fixtures created to support resolver testing before installation. Iterative prototypes helped improve test repeatability, protect components, and make the setup faster and easier to use.",
-      impact: "The work paired hands-on prototyping with real manufacturing and test constraints—an example of small tooling changes creating meaningful workflow gains.",
+      title: "Electronics Prototyping",
+      meta: "Circuit design · Fabrication · Iteration",
+      description: "A compact hand-built circuit prototype developed on perfboard. The project reflects my interest in learning beyond the aerospace curriculum and building the practical electronics skills needed to move from a schematic to working hardware.",
+      impact: "Careful component placement and soldered connections turned the early circuit concept into a physical prototype ready for integration and testing.",
       mediaType: "image",
-      media: "assets/images/resolver-tooling.jpg",
-      imageAlt: "Resolver beside a tan 3D-printed test fixture"
+      media: "assets/images/circuit-prototype.jpg",
+      imageAlt: "Hand-built electronics circuit on a small perfboard"
     },
     {
       title: "Interactive Engineering Open House Exhibit",
@@ -160,13 +149,34 @@ window.PORTFOLIO_CONTENT = {
       imageAlt: "Engineering students presenting their interactive exhibit"
     },
     {
-      title: "Electronics Prototyping",
-      meta: "Circuit design · Fabrication · Iteration",
-      description: "A compact hand-built circuit prototype developed on perfboard. The project reflects my interest in learning beyond the aerospace curriculum and building the practical electronics skills needed to move from a schematic to working hardware.",
-      impact: "Careful component placement and soldered connections turned the early circuit concept into a physical prototype ready for integration and testing.",
+      title: "Woodward Plane Project",
+      meta: "Woodward · Aerospace systems · Interactive prototype",
+      description: "A hands-on Woodward demonstration that combines a scale aircraft, an illuminated control display, and mechanical test hardware in a working bench setup.",
+      impact: "The project connected aerospace hardware and electronics in a physical presentation designed to make the system easier to understand and demonstrate.",
+      mediaType: "video",
+      media: "assets/video/woodward-plane.mp4",
+      poster: "assets/images/woodward-plane-poster.jpg",
+      imageAlt: "Woodward aircraft demonstration with a scale airplane, illuminated display, and mechanical test stand"
+    },
+    {
+      title: "NASA SLS Block 1 — Digital Model",
+      meta: "Siemens NX · CAD · Kinematic simulation",
+      description: "A detailed 1:1 digital model of NASA’s Space Launch System Block 1, developed from technical references and photogrammetry. The assembly includes more than 30 moving components, 48 unique materials, 43 decals, detachable stages, and a kinematic assembly animation.",
+      impact: "Built to deepen my understanding of launch vehicle architecture while advancing my solid, surface, assembly, rendering, and motion-simulation skills in Siemens NX.",
+      mediaType: "video",
+      media: "assets/video/sls-model.mp4",
+      fallbackMedia: "assets/video/sls-model.avi",
+      poster: "assets/images/sls-poster.jpg",
+      imageAlt: "Animation of a detailed NASA SLS Block 1 CAD model"
+    },
+    {
+      title: "Resolver Test Tooling",
+      meta: "Woodward · Rapid prototyping · Test engineering",
+      description: "A family of custom 3D-printed fixtures created to support resolver testing before installation. Iterative prototypes helped improve test repeatability, protect components, and make the setup faster and easier to use.",
+      impact: "The work paired hands-on prototyping with real manufacturing and test constraints—an example of small tooling changes creating meaningful workflow gains.",
       mediaType: "image",
-      media: "assets/images/circuit-prototype.jpg",
-      imageAlt: "Hand-built electronics circuit on a small perfboard"
+      media: "assets/images/resolver-tooling.jpg",
+      imageAlt: "Resolver beside a tan 3D-printed test fixture"
     }
   ],
 

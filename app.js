@@ -83,7 +83,7 @@ function mediaMarkup(project) {
   if (project.mediaType === "video") {
     return `<video controls muted playsinline preload="metadata" poster="${project.poster}">
       <source src="${project.media}" type="video/mp4" />
-      <source src="${project.fallbackMedia}" type="video/x-msvideo" />
+      ${project.fallbackMedia ? `<source src="${project.fallbackMedia}" type="video/x-msvideo" />` : ""}
       ${content.pageCopy.videoFallback}
     </video>`;
   }
