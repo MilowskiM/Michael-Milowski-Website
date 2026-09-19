@@ -15,8 +15,8 @@ window.PORTFOLIO_CONTENT = {
     email: "mdm17@illinois.edu",
     linkedin: "https://www.linkedin.com/in/michaelmilowski/",
     heroEyebrow: "AEROSPACE · SYSTEMS · HARDWARE",
-    heroTitle: "Engineering ideas into hardware that moves.",
-    heroIntro: "I’m an aerospace engineering student focused on space missions, electromechanical systems, and the disciplined work of turning an early concept into something testable.",
+    heroTitle: "Understanding Systems to Design the Furure.",
+    heroIntro: "I’m an aerospace engineering student focused on space missions, complex systems, and turning concepts into reality.",
     aboutTitle: "Curious about the entire system.",
     aboutParagraphs: [
       "I am an aerospace engineering student at the University of Illinois Urbana-Champaign. I enjoy work that connects analysis, design, manufacturing, and testing—especially when the problem sits at the intersection of hardware and mission objectives.",
