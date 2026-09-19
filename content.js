@@ -37,7 +37,7 @@ window.PORTFOLIO_CONTENT = {
   home: {
     selectedWorkLabel: "SELECTED WORK",
     experienceLabel: "FEATURED EXPERIENCE",
-    portfolioButton: "View all projects",
+    portfolioButton: "View my projects",
     experienceButton: "Explore experience",
     resumeButton: "Download résumé",
     aboutEyebrow: "ABOUT ME",
