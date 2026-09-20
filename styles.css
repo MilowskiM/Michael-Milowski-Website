@@ -101,7 +101,7 @@ h2 { font-size: clamp(2rem, 4.5vw, 4rem); }
 .experience-card:nth-child(even) .experience-media { order: 2; }
 .experience-media { min-height: 440px; overflow: hidden; }
 .experience-media img { height: 100%; object-fit: cover; filter: saturate(.72) contrast(1.07); }
-.experience-media.contain { background: #05070b; }
+.experience-media.contain { background: var(--surface); }
 .experience-media.contain img { object-fit: contain; }
 .experience-placeholder { position: relative; display: grid; place-content: center; height: 100%; min-height: 440px; padding: 2rem; overflow: hidden; color: var(--muted); text-align: center; background: linear-gradient(145deg, #0d1521, #070a10); }
 .experience-placeholder::before, .experience-placeholder::after { content: ""; position: absolute; inset: 16%; border: 1px solid rgba(84,184,255,.18); border-radius: 50%; }
