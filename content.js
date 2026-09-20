@@ -15,7 +15,7 @@ window.PORTFOLIO_CONTENT = {
     email: "mdm17@illinois.edu",
     linkedin: "https://www.linkedin.com/in/michaelmilowski/",
     heroEyebrow: "AEROSPACE · SYSTEMS · HARDWARE",
-    heroTitle: "Understanding Systems to Design the Furure.",
+    heroTitle: "Understanding Systems to Design the Future.",
     heroIntro: "I’m an aerospace engineering student focused on space missions, complex systems, and turning concepts into reality.",
     aboutTitle: "Curious about the entire system.",
     aboutParagraphs: [
@@ -43,18 +43,18 @@ window.PORTFOLIO_CONTENT = {
     resumeButton: "Download résumé",
     aboutEyebrow: "ABOUT ME",
     aboutTitle: "Becoming a well-rounded engineer by gaining experience across all aspects of complex projects and missions.",
-    aboutText: "I’m an aerospace engineering student who enjoys connecting analysis, design, manufacturing, and testing. My recent work has taken me from mission cost analysis at NASA Langley to systems integration and eletronic rework and repair at Woodward.",
+    aboutText: "I’m an aerospace engineering student who enjoys connecting analysis, design, manufacturing, and testing. My recent work has taken me from mission cost analysis at NASA Langley to systems integration and PCB rework and repair at Woodward.",
     nasaLink: "NASA experience",
     woodwardLink: "Woodward experience"
   },
 
   pageCopy: {
     experienceEyebrow: "PROFESSIONAL EXPERIENCES / 01",
-    experienceTitle: "Experiences built to devolop my engineering tool box.",
-    experienceIntro: "From early mission analysis to system integration, I’m learning how to make well informed engineering decisions that carry through an entire program.",
+    experienceTitle: "Experiences built to develop my engineering toolbox.",
+    experienceIntro: "From early mission analysis to system integration, I’m learning how to make well-informed engineering decisions that carry through an entire program.",
     portfolioEyebrow: "SELECTED PROJECTS / 02",
     portfolioTitle: "My Portfolio",
-    portfolioIntro: "A selection of projects that reflect how I apply my engineering knowlege and work with teams to achieve more than I can individually.",
+    portfolioIntro: "A selection of projects that reflect how I apply my engineering knowledge and work with teams to achieve more than I can individually.",
     projectPrefix: "PROJECT",
     resumeEyebrow: "BACKGROUND / 03",
     educationLabel: "Education",
@@ -134,8 +134,8 @@ window.PORTFOLIO_CONTENT = {
     {
       title: "Electronics Prototyping",
       meta: "Circuit design · Fabrication · Iteration",
-      description: "A hand-built circuit prototype developed on perfboard. The project reflects my interest in learning beyond the aerospace curriculum and building the practical electronics skills to widen my working knowlege and better understand circuitry. ",
-      impact: "Learning how to read, design and build circuts, challagning myself to learn something I am unfamiliar with and expand my knowlege bases.",
+      description: "A hand-built circuit prototype developed on perfboard. The project reflects my interest in learning beyond the aerospace curriculum and building the practical electronics skills to widen my working knowledge and better understand circuitry. ",
+      impact: "Learning how to read, design and build circuits, challenging myself to learn something I am unfamiliar with and expand my knowlege base.",
       mediaType: "image",
       media: "assets/images/circuit-prototype.jpg",
       imageAlt: "Hand-built electronics circuit mounted on a small wheeled prototype"
@@ -143,8 +143,8 @@ window.PORTFOLIO_CONTENT = {
     {
       title: "Interactive Engineering Open House Exhibit",
       meta: "Kappa Theta Tau · Team design · Public engagement",
-      description: "A year-long, team-built exhibit designed to make engineering concepts engaging and approachable for visitors of all ages. I helped idate,design and manufacture mechanical components for an interactive automatic slime maker that demonstrated mechanical and eletrical principles.",
-      impact: "The project combined mechanical design, iteration, teamwork, and technical communication in a very aproachable manner.",
+      description: "A year-long, team-built exhibit designed to make engineering concepts engaging and approachable for visitors of all ages. I helped ideate, design and manufacture mechanical components for an interactive automatic slime maker that demonstrated mechanical and electrical principles.",
+      impact: "The project combined mechanical design, iteration, teamwork, and technical communication in a very approachable manner.",
       mediaType: "image",
       media: "assets/images/eoh-team.jpg",
       imageAlt: "Engineering students presenting their interactive exhibit"
@@ -152,8 +152,8 @@ window.PORTFOLIO_CONTENT = {
     {
       title: "Woodward Plane Project",
       meta: "Woodward · Aerospace systems · Interactive prototype",
-      description: "A hands on Woodward demonstration that combines a scale aircraft, an illuminated control PCB display, and mechanical hardware in a easy to opperate design",
-      impact: "The project allowed the team to design hardware and electronics, challanging us to compleate the project in a short time frame.",
+      description: "A hands-on Woodward demonstration that combines a scale aircraft, an illuminated control PCB display, and mechanical hardware in an easy to operate design.",
+      impact: "The project allowed the team to design hardware and electronics, challenging us to complete the project in a short time frame.",
       mediaType: "video",
       media: "./woodward-plane.mp4",
       poster: "./woodward-plane-poster.jpg",
@@ -173,8 +173,8 @@ window.PORTFOLIO_CONTENT = {
     {
       title: "Resolver Test Tooling",
       meta: "Woodward · Rapid prototyping · Test engineering",
-      description: "designed a custom 3D-printed fixture created to support resolver testing before installation. Iterative prototypes helped improve test repeatability, protect components, and make the setup faster and easier to use.",
-      impact: "The work paired hands-on prototyping with real manufacturing and test constraints creating an example of how small tooling changes can create meaningful effeciency gains.",
+      description: "Designed a custom 3D-printed fixture created to support resolver testing before installation. Iterative prototypes helped improve test repeatability, protect components, and make the setup faster and easier to use.",
+      impact: "The work paired hands-on prototyping with real manufacturing and test constraints creating an example of how small tooling changes can create meaningful efficiency gains.",
       mediaType: "image",
       media: "assets/images/resolver-tooling.jpg",
       imageAlt: "Resolver beside a tan 3D-printed test fixture"
