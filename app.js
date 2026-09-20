@@ -123,7 +123,6 @@ function renderResume() {
       <div><p class="eyebrow">${content.pageCopy.resumeEyebrow}</p><h1 id="resume-title">${r.title}</h1><p>${r.intro}</p></div>
       <div class="download-stack">
         ${linkButton(r.primaryDownloadLabel, r.primaryDownload, "button", true)}
-        ${linkButton(r.federalDownloadLabel, r.federalDownload, "button secondary", true)}
       </div>
     </div>
     <div class="resume-layout page-shell">

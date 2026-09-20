@@ -186,8 +186,6 @@ window.PORTFOLIO_CONTENT = {
     intro: "A concise record of my engineering experience, leadership, education, and technical toolkit.",
     primaryDownloadLabel: "Download current résumé",
     primaryDownload: "assets/resume/Michael_Milowski_Resume.pdf",
-    federalDownloadLabel: "Download federal résumé",
-    federalDownload: "assets/resume/Fed_Resume_Michael_Milowski_2026.pdf",
     education: {
       school: "University of Illinois Urbana-Champaign",
       degree: "Bachelor of Science in Aerospace Engineering",
