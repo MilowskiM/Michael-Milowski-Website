@@ -122,7 +122,7 @@ window.PORTFOLIO_CONTENT = {
     {
       title: "NASA Human Lander Challenge — ECLIPSE",
       meta: "NASA HuLC 2025 · Advanced cryogenics · Technical paper",
-      description: "I contributed to ECLIPSE—Efficient Cryogenic Low Invasive Propellant Supply Exchange—a University of Illinois concept for improving cryogenic propellant transfer in microgravity. Our research evaluated methods to reduce line chilldown time and propellant boiloff under Artemis transfer conditions.",
+      description: "I contributed to ECLIPSE—Efficient Cryogenic Low Invasive Propellant Supply Exchange—a University of Illinois concept for improving cryogenic propellant transfer in microgravity. My research evaluated methods to reduce line chilldown time and propellant boiloff under Artemis transfer conditions.",
       impact: "The team was selected as one of 12 national HuLC finalists and received the award for Best Technical Presentation.",
       mediaType: "image",
       media: "./hulc-project-image.png",
@@ -134,8 +134,8 @@ window.PORTFOLIO_CONTENT = {
     {
       title: "Electronics Prototyping",
       meta: "Circuit design · Fabrication · Iteration",
-      description: "A compact hand-built circuit prototype developed on perfboard. The project reflects my interest in learning beyond the aerospace curriculum and building the practical electronics skills needed to move from a schematic to working hardware.",
-      impact: "Careful component placement and soldered connections turned the early circuit concept into a physical prototype ready for integration and testing.",
+      description: "A hand-built circuit prototype developed on perfboard. The project reflects my interest in learning beyond the aerospace curriculum and building the practical electronics skills to widen my working knowlege and better understand circuitry. ",
+      impact: "Learning how to read, design and build circuts, challagning myself to learn something I am unfamiliar with and expand my knowlege bases.",
       mediaType: "image",
       media: "assets/images/circuit-prototype.jpg",
       imageAlt: "Hand-built electronics circuit mounted on a small wheeled prototype"
@@ -143,8 +143,8 @@ window.PORTFOLIO_CONTENT = {
     {
       title: "Interactive Engineering Open House Exhibit",
       meta: "Kappa Theta Tau · Team design · Public engagement",
-      description: "A year-long, team-built exhibit designed to make engineering concepts engaging and approachable for visitors of all ages. I designed and manufactured mechanical components for an interactive bus-route display that demonstrated physics principles.",
-      impact: "The project combined mechanical design, iteration, teamwork, and technical communication in a public-facing environment.",
+      description: "A year-long, team-built exhibit designed to make engineering concepts engaging and approachable for visitors of all ages. I helped idate,design and manufacture mechanical components for an interactive automatic slime maker that demonstrated mechanical and eletrical principles.",
+      impact: "The project combined mechanical design, iteration, teamwork, and technical communication in a very aproachable manner.",
       mediaType: "image",
       media: "assets/images/eoh-team.jpg",
       imageAlt: "Engineering students presenting their interactive exhibit"
@@ -152,8 +152,8 @@ window.PORTFOLIO_CONTENT = {
     {
       title: "Woodward Plane Project",
       meta: "Woodward · Aerospace systems · Interactive prototype",
-      description: "A hands-on Woodward demonstration that combines a scale aircraft, an illuminated control display, and mechanical test hardware in a working bench setup.",
-      impact: "The project connected aerospace hardware and electronics in a physical presentation designed to make the system easier to understand and demonstrate.",
+      description: "A hands on Woodward demonstration that combines a scale aircraft, an illuminated control PCB display, and mechanical hardware in a easy to opperate design",
+      impact: "The project allowed the team to design hardware and electronics, challanging us to compleate the project in a short time frame.",
       mediaType: "video",
       media: "./woodward-plane.mp4",
       poster: "./woodward-plane-poster.jpg",
@@ -162,8 +162,8 @@ window.PORTFOLIO_CONTENT = {
     {
       title: "NASA SLS Block 1 — Digital Model",
       meta: "Siemens NX · CAD · Kinematic simulation",
-      description: "A detailed 1:1 digital model of NASA’s Space Launch System Block 1, developed from technical references and photogrammetry. The assembly includes more than 30 moving components, 48 unique materials, 43 decals, detachable stages, and a kinematic assembly animation.",
-      impact: "Built to deepen my understanding of launch vehicle architecture while advancing my solid, surface, assembly, rendering, and motion-simulation skills in Siemens NX.",
+      description: "A detailed 1:1 digital model of NASA’s Space Launch System Block 1, developed from technical references and photogrammetry. The assembly includes more than 30 moving components, 48 unique materials, 43 decals, detachable stages, renderings, and an assembly animation.",
+      impact: "Built to deepen my understanding of launch vehicle architecture while improving my solid, surface, assembly, rendering, and simulation skills in Siemens NX.",
       mediaType: "video",
       media: "assets/video/sls-model.mp4",
       fallbackMedia: "assets/video/sls-model.avi",
@@ -173,8 +173,8 @@ window.PORTFOLIO_CONTENT = {
     {
       title: "Resolver Test Tooling",
       meta: "Woodward · Rapid prototyping · Test engineering",
-      description: "A family of custom 3D-printed fixtures created to support resolver testing before installation. Iterative prototypes helped improve test repeatability, protect components, and make the setup faster and easier to use.",
-      impact: "The work paired hands-on prototyping with real manufacturing and test constraints—an example of small tooling changes creating meaningful workflow gains.",
+      description: "designed a custom 3D-printed fixture created to support resolver testing before installation. Iterative prototypes helped improve test repeatability, protect components, and make the setup faster and easier to use.",
+      impact: "The work paired hands-on prototyping with real manufacturing and test constraints creating an example of how small tooling changes can create meaningful effeciency gains.",
       mediaType: "image",
       media: "assets/images/resolver-tooling.jpg",
       imageAlt: "Resolver beside a tan 3D-printed test fixture"
@@ -183,7 +183,7 @@ window.PORTFOLIO_CONTENT = {
 
   resume: {
     title: "Résumé",
-    intro: "A concise record of my engineering experience, leadership, education, and technical toolkit.",
+    intro: "A record of my engineering experience, leadership, education, and technical toolkit.",
     primaryDownloadLabel: "Download current résumé",
     primaryDownload: "assets/resume/Michael_Milowski_Resume.pdf",
     education: {
